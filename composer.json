@@ -1,5 +1,6 @@
 {
    "name": "appkita/ci4-rest",
+   "version": "1.0.0-beta",
    "description": "Library untuk CodeIgniter 4",
    "type": "library",
    "license": "MIT",
@@ -18,6 +19,14 @@
       },
       "files": [
          "src/Helpers/config_helper.php"
+      ]
+   },
+   "scripts": {
+      "post-install-cmd": [
+         "php spark commands:discover"
+      ],
+      "post-update-cmd": [
+         "php spark commands:discover"
       ]
    }
 }
