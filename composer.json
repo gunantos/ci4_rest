@@ -1,0 +1,23 @@
+{
+   "name": "appkita/ci4-rest",
+   "description": "Library untuk CodeIgniter 4",
+   "type": "library",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Gunanto Simamora",
+         "email": "gunanto.simamora@gmail.com"
+      }
+   ],
+   "require": {
+      "codeigniter4/framework": "^4.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "APPKITA\\CI4_REST\\": "src/"
+      },
+      "files": [
+         "src/Helpers/config_helper.php"
+      ]
+   },
+}
